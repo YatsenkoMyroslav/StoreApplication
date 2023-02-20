@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="981785caaf3c4e1cb2acb9a787c2a0bb" Name="Diagram1">
+        <EntityTypeShape EntityType="testdbModel.CONTRACT" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.CUSTOMER" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.PRODUCT" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.TRANSPORT" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.TTH" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.CustomerName" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.ProductTypeAndAmount" Width="1.5" PointX="7.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.TTH_NumberAndTransportName" Width="1.5" PointX="7.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="testdbModel.TTHInfoJoinedWithCompanyNameAndProductName" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <AssociationConnector Association="testdbModel.FK__CONTRACT__CUSTOM__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="testdbModel.FK__CONTRACT__PRODUC__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="testdbModel.FK__TTH__NUMBER_CONT__75A278F5" ManuallyRouted="false" />
+        <AssociationConnector Association="testdbModel.FK__TTH__PRODUCT_TYP__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="testdbModel.FK__TTH__TRANSPORT_T__76969D2E" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
